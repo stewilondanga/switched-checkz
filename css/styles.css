@@ -42,13 +42,13 @@ body {
   justify-content: center;
 }
 
-/*input {
+input {
   position: absolute;
   top: -9999px;
   left: -9999px;
 }
 
-input:checked~label:before {
+/*input:checked~label:before {
   right: -40px;
   border-right: 1px solid rgba(15, 98, 238, 0.5);
   border-top: 1px solid rgba(43, 120, 235, 0.2);
