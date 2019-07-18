@@ -68,7 +68,7 @@ label {
   background: #121212;
 }
 
-/*label:before {
+label:before {
   content: "";
   position: absolute;
   margin: auto;
@@ -85,7 +85,7 @@ label {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
 
-label:after {
+/*label:after {
   content: "";
   position: absolute;
   margin: auto;
