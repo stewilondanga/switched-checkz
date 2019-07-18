@@ -72,15 +72,16 @@ body {
   justify-content: center;
 }
 
-/*#slidein{
-	height: 100%;
-	width: 0%;
-	background: #555;
-	left: 0;
-	position: absolute;
-	transform: translatez(-26px);
+#slidein {
+  height: 100%;
+  width: 0%;
+  background: #555;
+  left: 0;
+  position: absolute;
+  transform: translatez(-26px);
 }
-#check{
+
+/*#check{
 	position: absolute;
 	top: 0px;
 	width: 15px;
