@@ -28,8 +28,6 @@ body {
   height: 1.5em;
 }
 
-/*
-
 .wrapper {
   position: absolute;
   margin: auto;
@@ -44,7 +42,7 @@ body {
   justify-content: center;
 }
 
-input {
+/*input {
   position: absolute;
   top: -9999px;
   left: -9999px;
