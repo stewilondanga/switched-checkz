@@ -9,6 +9,10 @@ html, body {
   height: 100%;
 }
 
+body {
+  background: #1f1f1f;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -33,9 +37,6 @@ html, body {
 }
 
 
-body {
-  background: #1f1f1f;
-}
 
 .wrapper {
   position: absolute;
