@@ -58,7 +58,7 @@ input:checked~label:after {
   background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 10%, #1f50fb 35%, #121212 70%);
 }
 
-/*label {
+label {
   cursor: pointer;
   width: 80px;
   height: 40px;
@@ -68,7 +68,7 @@ input:checked~label:after {
   background: #121212;
 }
 
-label:before {
+/*label:before {
   content: "";
   position: absolute;
   margin: auto;
