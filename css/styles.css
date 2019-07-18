@@ -52,15 +52,16 @@ body {
   z-index: 1;
 }
 
-/*#checkfront{
-	width: 100%;
-	height: 100%;
-	background: #555;
-	position: absolute;
-	box-shadow: inset 0 0 0 5px #ececec;
-	transform: translatez(25px);
+#checkfront {
+  width: 100%;
+  height: 100%;
+  background: #555;
+  position: absolute;
+  box-shadow: inset 0 0 0 5px #ececec;
+  transform: translatez(25px);
 }
-#checkside{
+
+/*#checkside{
 	width: 100%;
 	height: 100%;
 	background: white;
