@@ -42,16 +42,17 @@ body {
   transition: all .4s ease-in-out;
 }
 
-/*#checkfunc{
-	width: 100%;
-	height: 100%;
-	opacity: 0;
-	cursor: pointer;
-	position: absolute;
-	transform: translatez(26px);
-	z-index: 1;
+#checkfunc {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  position: absolute;
+  transform: translatez(26px);
+  z-index: 1;
 }
-#checkfront{
+
+/*#checkfront{
 	width: 100%;
 	height: 100%;
 	background: #555;
