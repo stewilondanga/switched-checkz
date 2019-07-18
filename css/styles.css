@@ -1,4 +1,15 @@
-body {
+* {
+  /*CSS RESET*/
+  /*margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +30,66 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+body{
+	background: #ccc;
+	overflow: hidden;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#checkbox{
+ 	width: 50px;
+	height: 50px;
+	position: relative;
+	transform: rotatey(0deg);
+	transform-style: preserve-3d;
+	transition: all .4s ease-in-out;
+}
+#checkfunc{
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	cursor: pointer;
+	position: absolute;
+	transform: translatez(26px);
+	z-index: 1;
+}
+#checkfront{
+	width: 100%;
+	height: 100%;
+	background: #555;
+	position: absolute;
+	box-shadow: inset 0 0 0 5px #ececec;
+	transform: translatez(25px);
+}
+#checkside{
+	width: 100%;
+	height: 100%;
+	background: white;
+	position: absolute;
+	transform: rotatey(90deg) translatez(25px);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#slidein{
+	height: 100%;
+	width: 0%;
+	background: #555;
+	left: 0;
+	position: absolute;
+	transform: translatez(-26px);
+}
+#check{
+	position: absolute;
+	top: 0px;
+	width: 15px;
+	height: 30px;
+	transform: rotate(45deg);
+	box-shadow: 0px 0px #555;
 }
 
 .containers {
