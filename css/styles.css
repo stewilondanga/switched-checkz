@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -27,11 +32,6 @@
   height: 1.5em;
 }
 
-
-html, body {
-  width: 100%;
-  height: 100%;
-}
 
 body {
   background: #1f1f1f;
