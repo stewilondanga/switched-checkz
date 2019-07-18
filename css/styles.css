@@ -48,13 +48,13 @@ input {
   left: -9999px;
 }
 
-/*input:checked~label:before {
+input:checked~label:before {
   right: -40px;
   border-right: 1px solid rgba(15, 98, 238, 0.5);
   border-top: 1px solid rgba(43, 120, 235, 0.2);
 }
 
-input:checked~label:after {
+/*input:checked~label:after {
   background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 10%, #1f50fb 35%, #121212 70%);
 }
 
